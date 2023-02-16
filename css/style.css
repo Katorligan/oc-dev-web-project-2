@@ -21,6 +21,11 @@ h1 {
 	margin: 10px 0;
 }
 
+h2 {
+	font-size: 1.4em;
+	font-weight: 700;
+}
+
 h3 {
 	font-size: 1em;
 }
@@ -60,7 +65,7 @@ form {
 }
 
 label {
-	background-color: #d9d9d9;
+	background-color: #f2f2f2;
 	border-radius: 15px 0 0 15px;
 	padding: 16px 18px;
 	font-size: 1.2em;
@@ -73,8 +78,8 @@ button {
 }
 
 input {
-	border-top: 1px solid #d9d9d9;
-	border-bottom: 1px solid #d9d9d9;
+	border-top: 1px solid #f2f2f2;
+	border-bottom: 1px solid #f2f2f2;
 	border-right: 0;
 	border-left: 0;
 	padding-left: 17px;
@@ -149,17 +154,20 @@ button {
 .card {
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 	border-radius: 20px;
+	background-color: white;
 	padding: 5px;
 	transition: box-shadow 0.3s;
 }
 
 .card:hover {
-	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.3);
 }
 
 .main {
-	width: 250px;
-	height: 200px;
+	width: 31%;
+	height: 48%;
+	display: flex;
+	flex-direction: column;
 }
 
 .main img {
@@ -197,12 +205,12 @@ button {
 }
 
 .unreached {
-	color: #d9d9d9;
+	color: #f2f2f2;
 }
 
 .trending {
-	width: 340px;
-	height: 140px;
+	width: 100%;
+	height: 31%;
 	display: flex;
 }
 
@@ -219,4 +227,59 @@ button {
 
 .card-title p {
 	margin-top: 5px;
+}
+
+.hostings {
+	display: flex;
+	justify-content: space-between;
+	margin: 35px 0;
+}
+
+.hostings-main,
+.hostings-trending {
+	height: 620px;
+	background-color: #f2f2f2;
+	border-radius: 20px;
+	padding: 40px 40px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.hostings-main {
+	width: 66%;
+}
+
+.hostings-trending {
+	width: 32%;
+}
+
+#show-more {
+	font-size: 1.2em;
+	font-weight: 700;
+}
+
+.trending-title {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.trending-title i {
+	color: #0065fc;
+	font-size: 1.2em;
+}
+
+.main-cards {
+	display: flex;
+	justify-content: flex-start;
+	gap: 25px;
+	flex-wrap: wrap;
+}
+
+.trending-cards {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	height: 90%;
 }
