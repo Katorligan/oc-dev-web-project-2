@@ -11,13 +11,18 @@ body {
 	padding: 0 30px;
 }
 
+a {
+	text-decoration: none;
+	color: black;
+}
+
 header {
 	display: flex;
 	justify-content: space-between;
 }
 
 header img {
-	width: 5%;
+	width: 61px;
 	margin: 20px 0;
 	object-fit: contain;
 }
@@ -28,8 +33,6 @@ header nav {
 
 header a {
 	display: block;
-	text-decoration: none;
-	color: black;
 	font-weight: 500;
 	padding: 40px 20px;
 	border-top: 2px solid white;
@@ -82,4 +85,56 @@ button {
 	color: white;
 	border-radius: 0 15px 15px 0;
 	padding: 14px 16px;
+	cursor: pointer;
+}
+
+#filters-section,
+.filters {
+	display: flex;
+	align-items: center;
+	gap: 50px;
+}
+
+#filters-section {
+	margin: 35px 0;
+}
+
+#filters-section h2 {
+	font-size: 1.2em;
+	font-weight: 700;
+}
+
+.filter {
+	display: flex;
+	align-items: center;
+	gap: 10px;
+	font-size: 1.1em;
+	font-weight: 700;
+	border: 2px solid #d9d9d9;
+	border-radius: 30px;
+	padding: 14px 20px;
+}
+
+.filter:hover {
+	background-color: #deebff;
+}
+
+.filter i {
+	color: #0065fc;
+}
+
+#info {
+	display: flex;
+	align-items: center;
+	gap: 10px;
+}
+
+#info i {
+	color: #0065fc;
+	font-size: 0.7em;
+	border: 1px solid #d9d9d9;
+	border-radius: 20px;
+	width: 24px;
+	height: 24px;
+	padding: 5px 9px;
 }
