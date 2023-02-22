@@ -276,6 +276,8 @@ button {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
+	gap: 15px;
+	margin-bottom: 20px;
 }
 
 .trending-title i {
@@ -435,7 +437,7 @@ footer a:hover {
 		text-align: center;
 		padding: 20px 0;
 		border-top: 0;
-		border-bottom: 3px solid white;
+		border-bottom: 3px solid #f2f2f2;
 	}
 
 	header a:hover {
@@ -510,6 +512,11 @@ footer a:hover {
 		background-color: white;
 		gap: 20px;
 		padding-bottom: 0;
+	}
+
+	.card {
+		max-width: 450px;
+		align-self: center;
 	}
 
 	.main-cards {
