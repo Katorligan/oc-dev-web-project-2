@@ -217,7 +217,7 @@ button {
 	color: #f2f2f2;
 }
 
-/* Card in the main hostings section */
+/* Card in the main hostings article */
 
 .main {
 	width: 31%;
@@ -238,7 +238,7 @@ button {
 	height: 40%;
 }
 
-/* Card in the trending hostings section */
+/* Card in the trending hostings article */
 
 .trending {
 	width: 100%;
@@ -262,7 +262,7 @@ button {
 	margin-top: 5px;
 }
 
-/* General hostings section and containers for main and trending cards */
+/* General hostings div and containers for main and trending cards */
 
 #hostings {
 	display: flex;
