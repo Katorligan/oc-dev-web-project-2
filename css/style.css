@@ -83,7 +83,7 @@ label {
 }
 
 input,
-button {
+form button {
 	font-size: 1.2em;
 	font-weight: 700;
 }
@@ -101,7 +101,7 @@ input:focus {
 	outline: none;
 }
 
-button {
+form button {
 	border: 0;
 	background-color: #0065fc;
 	color: white;
@@ -149,6 +149,8 @@ button {
 	border: 2px solid #d9d9d9;
 	border-radius: 30px;
 	padding: 14px 20px;
+	background-color: white;
+	cursor: pointer;
 	transition: background-color 0.3s;
 }
 
