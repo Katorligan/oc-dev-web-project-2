@@ -528,6 +528,10 @@ footer a:hover {
 		padding: 0 20px;
 	}
 
+	#info i {
+		font-size: 0.8em;
+	}
+
 	/* Reverse column to show trending before main */
 	#hostings {
 		flex-direction: column-reverse;
