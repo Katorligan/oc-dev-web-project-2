@@ -370,7 +370,7 @@ footer {
 	padding: 45px 70px;
 }
 
-footer div {
+footer section {
 	width: 34%;
 }
 
@@ -596,7 +596,7 @@ footer a:hover {
 		padding: 45px 30px;
 	}
 
-	footer div {
+	footer section {
 		width: 100%;
 	}
 }
