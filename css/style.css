@@ -311,7 +311,7 @@ form button {
 
 .main-cards {
 	display: flex;
-	justify-content: space-around;
+	justify-content: space-between;
 	row-gap: 25px;
 	flex-wrap: wrap;
 }
